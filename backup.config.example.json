@@ -1,0 +1,14 @@
+{
+  "work": "D:/backup-work",
+  "keyFile": "~/.encrypted-git-backup.key",
+  "mirror": true,
+  "proxy": "",
+  "sources": [
+    { "path": "D:/Notes", "name": "notes" },
+    { "path": "~/.config/myapp", "name": "myapp-config", "include": ["*.json", "*.toml", "profiles/**"] },
+    { "path": "D:/Projects", "name": "projects", "exclude": ["dist", "*.log"] }
+  ],
+  "sqlite": [
+    { "path": "~/.myapp/state.sqlite", "into": "myapp-db" }
+  ]
+}

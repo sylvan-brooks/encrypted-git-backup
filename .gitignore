@@ -1,0 +1,5 @@
+# 自己的配置和密码别进仓库
+backup.config.json
+*.key
+backup-work/
+node_modules/
